@@ -1,12 +1,5 @@
 ﻿<!DOCTYPE html>
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
-    <script src="https://mattstow.com/experiment/responsive-image-maps/jquery.rwdImageMaps.min.js"></script>
     
-    <script>
-        $(function(){
-            $("img[usemap]").rwdImageMaps();
-          });
-    </script>
 <html lang="kr" dir="ltr">
 <head>
     <meta charset="utf-8">
@@ -25,11 +18,17 @@
     </style>
 </head>
 <body>
+    <script src="//code.jquery.com/jquery-3.3.1.min.js"></script>
+    <script src="https://mattstow.com/experiment/responsive-image-maps/jquery.rwdImageMaps.min.js"></script>
     
-    
+    <script>
+        $(function(){
+            $("img[usemap]").rwdImageMaps();
+          });
+    </script>
     <div>
-        <p><br><br><br><br><br></p>
-        <img src="https://schoolww.github.io/tj/logoMainPNG.png" alt="SWW 로고" usemap="#map">
+       
+        <img src="https://schoolww.github.io/tj/logoMainPNG.png" alt="SWW 로고" usemap="#map" width="1024" height="863">
         <map name="#map"><area shape="rect" alt="" title="" coords="446,2,590,182" href="" target="" /><area shape="rect" alt="" title="" coords="760,204,936,380" href="" target="" /><area shape="rect" alt="" title="" coords="88,222,260,358" href="" target="" /><area shape="rect" alt="" title="" coords="768,508,940,656" href="" target="" /><area shape="rect" alt="" title="" coords="436,698,600,862" href="" target="" /><area shape="rect" alt="" title="" coords="112,496,236,672" href="" target="" /></map>
     </div>
     </body>
